@@ -1,0 +1,12 @@
+[package]
+name = "e2"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+syn = { version = "2", features = ["full", "visit"] }
+petgraph = "0.6"
+plotters = "0.3"
+plotters-svg = "0.3"
+walkdir = "2.3"
+clap = "4.5.20"

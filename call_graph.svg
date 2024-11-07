@@ -1,0 +1,22 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+<rect x="0" y="0" width="800" height="600" opacity="1" fill="#FFFFFF" stroke="none"/>
+<text x="400" y="5" dy="0.76em" text-anchor="middle" font-family="sans-serif" font-size="24.193548387096776" opacity="1" fill="#000000">
+Call Graph
+</text>
+<circle cx="0" cy="34" r="5" opacity="1" fill="#000000" stroke="none" stroke-width="1"/>
+<text x="10" y="34" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="12.096774193548388" opacity="1" fill="#000000">
+parse_rust_code_recursive
+</text>
+<circle cx="79" cy="91" r="5" opacity="1" fill="#000000" stroke="none" stroke-width="1"/>
+<text x="89" y="91" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="12.096774193548388" opacity="1" fill="#000000">
+render_graph_to_svg
+</text>
+<circle cx="159" cy="147" r="5" opacity="1" fill="#000000" stroke="none" stroke-width="1"/>
+<text x="169" y="147" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="12.096774193548388" opacity="1" fill="#000000">
+build_call_graph
+</text>
+<circle cx="239" cy="204" r="5" opacity="1" fill="#000000" stroke="none" stroke-width="1"/>
+<text x="249" y="204" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="12.096774193548388" opacity="1" fill="#000000">
+main
+</text>
+</svg>
